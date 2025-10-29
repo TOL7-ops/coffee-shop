@@ -45,6 +45,7 @@ section{
     padding: 2rem 9%;
     background-color: #fff;
     box-shadow: 0 0.5 rem 1rem rgba(0, 0, 0, 0.1);
+    z-index: 2;
 }
 
 .header .logo{
