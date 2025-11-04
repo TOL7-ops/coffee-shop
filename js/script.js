@@ -37,3 +37,6 @@ document.querySelectorAll('.nav-bar a').forEach(link => {
     navBar.classList.remove('active');
   });
 });
+
+
+

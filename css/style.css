@@ -406,6 +406,8 @@ section{
     font-size: 65%;
   }
 
+  
+
   .home .row .content h3 {
     font-size: 7rem;
   }
@@ -626,7 +628,7 @@ section{
   /* CSS */
   
 /* ========== RESPONSIVE NAVIGATION ========== */
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   #menu-btn {
     display: block;
   }
@@ -671,11 +673,11 @@ section{
 
 
 @media (min-width: 1020px) {
-  .hamburger {
+  #menu-btn {
     display: none !important;
   }
 
-  .nav-bar {
+  .header .nav-bar {
     position: static;
     display: flex;
     flex-direction: row;
@@ -685,7 +687,7 @@ section{
     width: auto;
   }
 
-  .nav-bar a {
+ .header .nav-bar a {
     color: var(--main-color);
     font-size: 1.6rem;
   }
